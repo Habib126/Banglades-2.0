@@ -1,5 +1,159 @@
 /* google fonts */
+.fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-*{
+* {
     margin: 0;
 }
+
+.bg-color{
+
+}
+
+.section-color {
+    background-color: rgba(236, 236, 236, 1);
+}
+
+/* shared style */
+.bg-common {
+    background: rgba(198, 228, 214, 1);
+}
+
+.common-margine {
+    margin: 0 160px;
+}
+
+.setion-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.setion-subtitle {
+    color: rgba(14, 14, 14, 0.8);
+
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-description {
+    color: rgba(14, 14, 14, 0.7);
+
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.primary-btn {
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+
+
+
+/*  */
+
+.width-web {
+    max-width: 1600px;
+}
+
+/* nav section styles */
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 160px;
+}
+
+.nav-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-btn {
+    padding: 15px 30px 15px 30px;
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    color: rgba(0, 106, 80, 1);
+}
+
+/* hero section */
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    max-width: 1280px;
+    height: 560px;
+    padding: 80px 60px;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    margin: 0 160px 80px 160px;
+}
+
+.hero-sub {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.hero-heading {
+    color: rgba(14, 14, 14, 1);
+
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+/* pillers of banglades section styles */
+.piller-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 34px;
+    padding: 24px;
+}
+
+.piller-container h3 {
+    margin: 24px 0 12px 0;
+}
+
+.piller-container .piller {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding: 24px;
+}
+
+.pillers-2 .piller-container
