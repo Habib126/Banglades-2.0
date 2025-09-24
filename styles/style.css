@@ -68,6 +68,24 @@
     border: none;
 }
 
+.primary-btn2 {
+    padding: 17px 34px 17px 34px;
+    border-top-right-radius: 8px;
+    /* Top-right corner */
+    border-bottom-right-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+
+
 
 
 /*  */
@@ -197,27 +215,22 @@
 
 /* your oponion section */
 .your-openion-container {
-    /* max-width: 1280px; */
     margin-bottom: 80px;
 }
 
 .your-openion {
     padding: 32px;
-    /* width: 1280px; */
     border-radius: 16px;
     background: rgba(255, 255, 255, 1)
 }
 
 .your-openion>table>thead>tr td {
     box-sizing: border-box;
-    /* border: 1px solid rgba(14, 14, 14, 0.15); */
     background: rgba(198, 228, 214, 1);
     padding: 30px;
-    /* display: flex; */
     flex-direction: row;
     justify-content: space-between;
     align-items: space-between;
-    /* gap: 24px; */
     width: 1216px;
     height: 72px;
 
@@ -227,15 +240,13 @@
 .your-openion table tbody tr td {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    /* background: rgba(198, 228, 214, 1); */
     padding: 30px;
-    /* display: flex; */
     flex-direction: row;
     justify-content: space-between;
     align-items: space-between;
     gap: 24px;
     width: 1216px;
-    /* height: 72px; */
+
 
 }
 
@@ -280,10 +291,9 @@ table {
 .donet {
 
     margin: 0 160px;
-    /* Frame 2087325502 */
     width: 1280px;
     height: 120px;
-    /* Auto layout */
+
 
 
 
@@ -298,13 +308,20 @@ table {
     align-items: center;
     gap: 24;
     margin: 0 160px;
+    text-align: center;
 }
+
+.doner-description p {
+    text-align: center;
+}
+
 
 .ammount-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 
 }
 
@@ -313,4 +330,103 @@ table {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
+    padding: 40px;
+}
+
+.doner-footer {
+    /* width: 1280px;
+    margin: 0 160px; */
+    /* height: 64px; */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    /* padding: 20px 40px 20px 40px; */
+
+
+}
+
+.doner-footer input[type="text"] {
+    width: 1032px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    /* border-bottom: 1px solid rgba(219, 217, 217, 0.623); */
+    background: rgba(255, 255, 255, 1);
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 1);
+    margin: 32px 0 0 0;
+
+}
+
+.subscrib {
+    /* Frame 2087325517 */
+    /* width: 1280px; */
+    /* height: 395px; */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    margin: 0 160px 80px 160px;
+
+}
+
+.subscrib input[type="text"] {
+    padding: 18px 40px 18px 40px;
+    width: 600px;
+    text-align: left;
+    width: 600px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    
+}
+
+.subscrib-inp-btn{
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer section */
+
+.footer-section{
+    /* Frame 2087325621 */
+/* width: 1600px; */
+/* height: 226px; */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32px;
+padding: 50px 160px 50px 160px;
+background: rgba(255, 255, 255, 1);
+
+
+}
+
+.icon{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 23px;
+}
+
+.footer-section hr {
+  border: none;                /* remove default style */
+  height: 1px;                 /* thickness */
+  background-color: rgba(14, 14, 14, 0.1);;      /* line color (dark gray) */
+  width: 80%;                  /* shorter than full width */
+  margin: 15px auto;           /* center it with space */
 }
